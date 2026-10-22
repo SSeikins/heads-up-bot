@@ -1,0 +1,44 @@
+{
+  "digest_hour_utc": 6,
+  "source_fail_alert_after": 6,
+  "http_timeout": 25,
+
+  "statuspage": {
+    "GitHub": "https://www.githubstatus.com",
+    "Cloudflare": "https://www.cloudflarestatus.com"
+  },
+  "statuspage_critical_impact": ["major", "critical"],
+
+  "status_feeds": {
+    "GitLab": "https://status.gitlab.com/pages/5b36dc6502d06804c08349f7/rss",
+    "Docker": "https://www.dockerstatus.com/feed.atom"
+  },
+
+  "gcp": {
+    "url": "https://status.cloud.google.com/incidents.json",
+    "products": ["Google Kubernetes Engine", "Compute Engine", "Artifact Registry", "Cloud SQL", "Cloud DNS",
+                 "Cloud Load Balancing", "Cloud Storage", "Identity and Access Management", "Pub/Sub",
+                 "BigQuery", "Secret Manager", "Virtual Private Cloud (VPC)", "Cloud Run", "Cloud Logging"],
+    "locations": ["europe-north1", "Multi-region: eu", "Global"]
+  },
+
+  "php_feed": "https://www.php.net/feed.atom",
+  "certlv_feed": "https://cert.lv/en/feed/rss/all",
+  "kev_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+  "nvd_url": "https://services.nvd.nist.gov/rest/json/cves/2.0",
+  "nvd_window_hours": 48,
+
+  "stack_keywords": ["php", "laravel", "wordpress", "woocommerce", "nginx", "apache http server", "kubernetes",
+                     "gke", "argo cd", "argocd", "helm", "postgresql", "pgbouncer", "redis", "valkey", "rabbitmq",
+                     "mongodb", "mariadb", "mysql", "node.js", "nodejs", "next.js", "openssl", "openssh", "gitlab",
+                     "docker", "containerd", "runc", "kaniko", "terraform", "grafana", "prometheus", "keycloak",
+                     "cloudflare", "linux kernel", "glibc", "curl", "airflow", "clickhouse", "varnish"],
+
+  "nvd_cpe_products": ["php:php", "laravel:", "wordpress:wordpress", "nginx:nginx", "f5:nginx", "apache:http_server",
+                       "kubernetes:", "linuxfoundation:argo-cd", "argoproj:argo_cd", "helm:helm", "postgresql:postgresql",
+                       "redis:redis", "rabbitmq:", "vmware:rabbitmq", "mongodb:", "mariadb:mariadb", "oracle:mysql",
+                       "nodejs:node.js", "vercel:next.js", "openssl:openssl", "openbsd:openssh", "gitlab:gitlab",
+                       "docker:", "linuxfoundation:containerd", "linuxfoundation:runc", "hashicorp:terraform",
+                       "grafana:grafana", "keycloak:", "redhat:keycloak", "linux:linux_kernel", "gnu:glibc",
+                       "haxx:curl", "apache:airflow", "clickhouse:", "varnish-cache:varnish"]
+}
