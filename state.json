@@ -1,7 +1,11 @@
 {
- "digest": [],
+ "digest": [
+  "\u2139\ufe0f <b>GitHub</b>: Errors loading Issues, Pull Requests, and search results [minor, investigating]\nSome users may experience intermittent errors loading Issues, Pull Requests and search results on github.com. We're investigating and working to restore normal service.\n<a href=\"https://stspg.io/sx51v1tlpqjc\">link</a>",
+  "\u2139\ufe0f <b>Cloudflare</b>: Cloudflare Workers API Latency [minor, identified]\nCloudflare is investigating an increased latency when interacting with Workers API and Workers configuration in the dashboard. Customers might experience longer wait times on Workers endpoints, particularly when deploying a script. Workers that are already running in production are not affected. Mo\u2026\n<a href=\"https://www.cloudflarestatus.com/incidents/lhdg2tq46faq\">link</a>",
+  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Incorrect geo location for some Cloudflare WARP users [minor, identified]\n<a href=\"https://www.cloudflarestatus.com/incidents/9g65dxfbcjln\">link</a>"
+ ],
  "last_digest": "2026-10-22",
- "last_run": "2026-10-22T12:42:39Z",
+ "last_run": "2026-10-22T16:00:11Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-10-22",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-10-22",
@@ -2695,7 +2699,10 @@
   "php:https://www.php.net/archive/2026.php#2026-10-21-3": "2026-10-22",
   "php:https://www.php.net/archive/2026.php#2026-10-21-4": "2026-10-22",
   "php:https://www.php.net/archive/2026.php#2026-10-21-5": "2026-10-22",
-  "sp:Cloudflare:9g65dxfbcjln": "2026-10-22"
+  "sp:Cloudflare:9g65dxfbcjln": "2026-10-22",
+  "sp:Cloudflare:9g65dxfbcjln:resolved": "2026-10-22",
+  "sp:Cloudflare:lhdg2tq46faq": "2026-10-22",
+  "sp:GitHub:wq8305lppdc2": "2026-10-22"
  },
  "sources": {
   "CERT.LV": {
@@ -2709,10 +2716,10 @@
   "Cloudflare": {
    "fails": 0,
    "open": {
-    "sp:Cloudflare:9g65dxfbcjln": {
+    "sp:Cloudflare:lhdg2tq46faq": {
      "level": "info",
-     "title": "Incorrect geo location for some Cloudflare WARP users [minor, identified]",
-     "url": "https://www.cloudflarestatus.com/incidents/9g65dxfbcjln"
+     "title": "Cloudflare Workers API Latency [minor, identified]",
+     "url": "https://www.cloudflarestatus.com/incidents/lhdg2tq46faq"
     }
    },
    "seeded": true
@@ -2728,7 +2735,13 @@
   },
   "GitHub": {
    "fails": 0,
-   "open": {},
+   "open": {
+    "sp:GitHub:wq8305lppdc2": {
+     "level": "info",
+     "title": "Errors loading Issues, Pull Requests, and search results [minor, investigating]",
+     "url": "https://stspg.io/sx51v1tlpqjc"
+    }
+   },
    "seeded": true
   },
   "GitLab": {
