@@ -2,10 +2,13 @@
  "digest": [
   "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Support Helpdesk Availability Issues [minor, identified]\n<a href=\"https://www.cloudflarestatus.com/incidents/8m9a1fjjwxp5\">link</a>",
   "\u2139\ufe0f <b>GitHub</b>: Disruption with Dependabot Alerts [minor, investigating]\nWe\u2019re continuing to investigate delays in some Dependabot alerts closing after affected repositories are updated. Alert processing remains backed up, and additional processing capacity is rolling out to help reduce the backlog. We\u2019re monitoring progress and will share another update as we learn mor\u2026\n<a href=\"https://stspg.io/zdk3zqt69fnz\">link</a>",
-  "\u2139\ufe0f <b>Cloudflare</b>: Delayed, missed, and duplicated Workers Cron Triggers [minor, investigating]\nWe are investigating reports that some Workers Cron Triggers are running late, being skipped, or running more than once. Affected customers may see scheduled Workers invocations that do not run on time or run more than once. We will post an update as we learn more.\n<a href=\"https://www.cloudflarestatus.com/incidents/3ts1mfzs0khz\">link</a>"
+  "\u2139\ufe0f <b>Cloudflare</b>: Delayed, missed, and duplicated Workers Cron Triggers [minor, investigating]\nWe are investigating reports that some Workers Cron Triggers are running late, being skipped, or running more than once. Affected customers may see scheduled Workers invocations that do not run on time or run more than once. We will post an update as we learn more.\n<a href=\"https://www.cloudflarestatus.com/incidents/3ts1mfzs0khz\">link</a>",
+  "\u2139\ufe0f <b>GitHub</b>: Resolved: Disruption with Dependabot Alerts [minor, investigating]\n<a href=\"https://stspg.io/zdk3zqt69fnz\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-114625 \u2014 Arista VeloCloud Orchestrator SQL Injection Vulnerability\nActively exploited. Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data man\u2026\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-114625\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-110447 \u2014 Collabora Online \u2013 Built-in CODE Server OS Command Injection Vulnerability\nActively exploited. Collabora Collabora Online \u2013 Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-110447\">link</a>"
  ],
  "last_digest": "2026-10-23",
- "last_run": "2026-10-23T16:59:35Z",
+ "last_run": "2026-10-23T20:20:11Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-10-23",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-10-23",
@@ -62,6 +65,7 @@
   "feed:GitLab:6ad7e38fa8d54c04f58bf921": "2026-10-23",
   "feed:GitLab:6ad7e38fa8d54c04f58bf921:resolved": "2026-10-23",
   "feed:GitLab:6adb8c29934fd905c8658aae": "2026-10-23",
+  "feed:GitLab:6adb8c29934fd905c8658aae:resolved": "2026-10-23",
   "kev:CVE-2002-0367": "2026-10-23",
   "kev:CVE-2004-0210": "2026-10-23",
   "kev:CVE-2004-1464": "2026-10-23",
@@ -1646,7 +1650,9 @@
   "kev:CVE-2026-105134": "2026-10-23",
   "kev:CVE-2026-10520": "2026-10-23",
   "kev:CVE-2026-106931": "2026-10-23",
+  "kev:CVE-2026-110447": "2026-10-23",
   "kev:CVE-2026-110936": "2026-10-23",
+  "kev:CVE-2026-114625": "2026-10-23",
   "kev:CVE-2026-11645": "2026-10-23",
   "kev:CVE-2026-12569": "2026-10-23",
   "kev:CVE-2026-1281": "2026-10-23",
@@ -2712,9 +2718,11 @@
   "sp:Cloudflare:qwrtvb4jfvk7": "2026-10-22",
   "sp:Cloudflare:qwrtvb4jfvk7:resolved": "2026-10-23",
   "sp:Cloudflare:sufgcbe8rrwt": "2026-10-23",
+  "sp:Cloudflare:sufgcbe8rrwt:resolved": "2026-10-23",
   "sp:Cloudflare:v967mz6rrcxw": "2026-10-22",
   "sp:Cloudflare:v967mz6rrcxw:resolved": "2026-10-23",
   "sp:GitHub:71y513kjvbzh": "2026-10-23",
+  "sp:GitHub:71y513kjvbzh:resolved": "2026-10-23",
   "sp:GitHub:wq8305lppdc2": "2026-10-22",
   "sp:GitHub:wq8305lppdc2:resolved": "2026-10-23"
  },
@@ -2734,11 +2742,6 @@
      "level": "info",
      "title": "Delayed, missed, and duplicated Workers Cron Triggers [minor, investigating]",
      "url": "https://www.cloudflarestatus.com/incidents/3ts1mfzs0khz"
-    },
-    "sp:Cloudflare:sufgcbe8rrwt": {
-     "level": "crit",
-     "title": "Network connectivity issues affecting services in North America [major, monitoring]",
-     "url": "https://www.cloudflarestatus.com/incidents/sufgcbe8rrwt"
     }
    },
    "seeded": true
@@ -2754,13 +2757,7 @@
   },
   "GitHub": {
    "fails": 0,
-   "open": {
-    "sp:GitHub:71y513kjvbzh": {
-     "level": "info",
-     "title": "Disruption with Dependabot Alerts [minor, investigating]",
-     "url": "https://stspg.io/zdk3zqt69fnz"
-    }
-   },
+   "open": {},
    "seeded": true
   },
   "GitLab": {
