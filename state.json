@@ -1,16 +1,7 @@
 {
- "digest": [
-  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Support Helpdesk Availability Issues [minor, identified]\n<a href=\"https://www.cloudflarestatus.com/incidents/8m9a1fjjwxp5\">link</a>",
-  "\u2139\ufe0f <b>GitHub</b>: Disruption with Dependabot Alerts [minor, investigating]\nWe\u2019re continuing to investigate delays in some Dependabot alerts closing after affected repositories are updated. Alert processing remains backed up, and additional processing capacity is rolling out to help reduce the backlog. We\u2019re monitoring progress and will share another update as we learn mor\u2026\n<a href=\"https://stspg.io/zdk3zqt69fnz\">link</a>",
-  "\u2139\ufe0f <b>Cloudflare</b>: Delayed, missed, and duplicated Workers Cron Triggers [minor, investigating]\nWe are investigating reports that some Workers Cron Triggers are running late, being skipped, or running more than once. Affected customers may see scheduled Workers invocations that do not run on time or run more than once. We will post an update as we learn more.\n<a href=\"https://www.cloudflarestatus.com/incidents/3ts1mfzs0khz\">link</a>",
-  "\u2139\ufe0f <b>GitHub</b>: Resolved: Disruption with Dependabot Alerts [minor, investigating]\n<a href=\"https://stspg.io/zdk3zqt69fnz\">link</a>",
-  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-114625 \u2014 Arista VeloCloud Orchestrator SQL Injection Vulnerability\nActively exploited. Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data man\u2026\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-114625\">link</a>",
-  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-110447 \u2014 Collabora Online \u2013 Built-in CODE Server OS Command Injection Vulnerability\nActively exploited. Collabora Collabora Online \u2013 Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-110447\">link</a>",
-  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Delayed, missed, and duplicated Workers Cron Triggers [minor, investigating]\n<a href=\"https://www.cloudflarestatus.com/incidents/3ts1mfzs0khz\">link</a>",
-  "\u2139\ufe0f <b>Cloudflare</b>: Network Performance Issues in Ashburn [minor, monitoring]\nA fix has been implemented and we are monitoring the results.\n<a href=\"https://www.cloudflarestatus.com/incidents/39fz3wkl42tr\">link</a>"
- ],
- "last_digest": "2026-10-23",
- "last_run": "2026-10-24T01:44:01Z",
+ "digest": [],
+ "last_digest": "2026-10-24",
+ "last_run": "2026-10-24T06:32:16Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-10-24",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-10-24",
@@ -2709,6 +2700,7 @@
   "php:https://www.php.net/archive/2026.php#2026-10-21-4": "2026-10-24",
   "php:https://www.php.net/archive/2026.php#2026-10-21-5": "2026-10-24",
   "sp:Cloudflare:39fz3wkl42tr": "2026-10-24",
+  "sp:Cloudflare:39fz3wkl42tr:resolved": "2026-10-24",
   "sp:Cloudflare:3ts1mfzs0khz": "2026-10-23",
   "sp:Cloudflare:3ts1mfzs0khz:resolved": "2026-10-23",
   "sp:Cloudflare:8m9a1fjjwxp5": "2026-10-23",
@@ -2741,13 +2733,7 @@
   },
   "Cloudflare": {
    "fails": 0,
-   "open": {
-    "sp:Cloudflare:39fz3wkl42tr": {
-     "level": "info",
-     "title": "Network Performance Issues in Ashburn [minor, monitoring]",
-     "url": "https://www.cloudflarestatus.com/incidents/39fz3wkl42tr"
-    }
-   },
+   "open": {},
    "seeded": true
   },
   "Docker": {
