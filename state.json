@@ -1,7 +1,10 @@
 {
- "digest": [],
+ "digest": [
+  "\u2139\ufe0f <b>php.net</b>: Informational advisory: Session upload progress\n<a href=\"https://www.php.net/index.php#2026-10-23-1\">link</a>",
+  "\u2139\ufe0f <b>php.net</b>: PHP 8.6.0 RC4 available for testing\n<a href=\"https://www.php.net/index.php#2026-10-21-6\">link</a>"
+ ],
  "last_digest": "2026-10-24",
- "last_run": "2026-10-24T20:42:33Z",
+ "last_run": "2026-10-24T22:44:54Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-10-24",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-10-24",
@@ -2699,6 +2702,8 @@
   "php:https://www.php.net/archive/2026.php#2026-10-21-3": "2026-10-24",
   "php:https://www.php.net/archive/2026.php#2026-10-21-4": "2026-10-24",
   "php:https://www.php.net/archive/2026.php#2026-10-21-5": "2026-10-24",
+  "php:https://www.php.net/archive/2026.php#2026-10-21-6": "2026-10-24",
+  "php:https://www.php.net/archive/2026.php#2026-10-23-1": "2026-10-24",
   "sp:Cloudflare:39fz3wkl42tr": "2026-10-24",
   "sp:Cloudflare:39fz3wkl42tr:resolved": "2026-10-24",
   "sp:Cloudflare:3ts1mfzs0khz": "2026-10-23",
