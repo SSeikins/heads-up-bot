@@ -1,9 +1,7 @@
 {
- "digest": [
-  "\u2139\ufe0f <b>Cloudflare</b>: Delayed, missed, and duplicated Workers Cron Triggers [minor, investigating]\nWe are investigating reports that some Workers Cron Triggers are running late, being skipped, or running more than once. Affected customers may see scheduled Workers invocations that do not run on time or run more than once. We will post an update as we learn more.\n<a href=\"https://www.cloudflarestatus.com/incidents/97y1vy5nsjrn\">link</a>"
- ],
- "last_digest": "2026-10-26",
- "last_run": "2026-10-27T00:58:34Z",
+ "digest": [],
+ "last_digest": "2026-10-27",
+ "last_run": "2026-10-27T06:11:07Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-10-27",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-10-27",
@@ -2712,6 +2710,7 @@
   "sp:Cloudflare:8m9a1fjjwxp5": "2026-10-23",
   "sp:Cloudflare:8m9a1fjjwxp5:resolved": "2026-10-23",
   "sp:Cloudflare:97y1vy5nsjrn": "2026-10-26",
+  "sp:Cloudflare:97y1vy5nsjrn:resolved": "2026-10-27",
   "sp:Cloudflare:9g65dxfbcjln": "2026-10-22",
   "sp:Cloudflare:9g65dxfbcjln:resolved": "2026-10-22",
   "sp:Cloudflare:l3d16334tgjp": "2026-10-22",
@@ -2740,13 +2739,7 @@
   },
   "Cloudflare": {
    "fails": 0,
-   "open": {
-    "sp:Cloudflare:97y1vy5nsjrn": {
-     "level": "info",
-     "title": "Delayed, missed, and duplicated Workers Cron Triggers [minor, investigating]",
-     "url": "https://www.cloudflarestatus.com/incidents/97y1vy5nsjrn"
-    }
-   },
+   "open": {},
    "seeded": true
   },
   "Docker": {
