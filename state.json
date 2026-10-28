@@ -1,13 +1,7 @@
 {
- "digest": [
-  "\u2139\ufe0f <b>Cloudflare</b>: We are seeing some customers having issues with Workers Builds [minor, identified]\nCloudflare has identified an issue impacting some Workers Builds customers where we would fail to deploy Workers with Containers. We are working to mitigate the problem. More updates to follow shortly.\n<a href=\"https://www.cloudflarestatus.com/incidents/2eno8w1fk27j\">link</a>",
-  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: We are seeing some customers having issues with Workers Builds [minor, identified]\n<a href=\"https://www.cloudflarestatus.com/incidents/2eno8w1fk27j\">link</a>",
-  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-48356 \u2014 Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability\nActively exploited. Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-48356\">link</a>",
-  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-111497 \u2014 Google Brotli Unchecked Return Value Vulnerability\nActively exploited. Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-111497\">link</a>",
-  "\u2139\ufe0f <b>Cloudflare</b>: Increased Errors for Durable Objects in the Eastern North America region [minor, monitoring]\nA fix has been implemented and we are monitoring the results.\n<a href=\"https://www.cloudflarestatus.com/incidents/klub12zy71b4\">link</a>"
- ],
- "last_digest": "2026-10-27",
- "last_run": "2026-10-28T01:29:25Z",
+ "digest": [],
+ "last_digest": "2026-10-28",
+ "last_run": "2026-10-28T07:18:53Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-10-28",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-10-28",
@@ -2725,12 +2719,14 @@
   "sp:Cloudflare:9g65dxfbcjln": "2026-10-22",
   "sp:Cloudflare:9g65dxfbcjln:resolved": "2026-10-22",
   "sp:Cloudflare:klub12zy71b4": "2026-10-28",
+  "sp:Cloudflare:klub12zy71b4:resolved": "2026-10-28",
   "sp:Cloudflare:l3d16334tgjp": "2026-10-22",
   "sp:Cloudflare:l3d16334tgjp:resolved": "2026-10-22",
   "sp:Cloudflare:lhdg2tq46faq": "2026-10-22",
   "sp:Cloudflare:lhdg2tq46faq:resolved": "2026-10-22",
   "sp:Cloudflare:qwrtvb4jfvk7": "2026-10-22",
   "sp:Cloudflare:qwrtvb4jfvk7:resolved": "2026-10-23",
+  "sp:Cloudflare:snth5ero95rz": "2026-10-28",
   "sp:Cloudflare:sufgcbe8rrwt": "2026-10-23",
   "sp:Cloudflare:sufgcbe8rrwt:resolved": "2026-10-23",
   "sp:Cloudflare:v967mz6rrcxw": "2026-10-22",
@@ -2752,10 +2748,10 @@
   "Cloudflare": {
    "fails": 0,
    "open": {
-    "sp:Cloudflare:klub12zy71b4": {
+    "sp:Cloudflare:snth5ero95rz": {
      "level": "info",
-     "title": "Increased Errors for Durable Objects in the Eastern North America region [minor, monitoring]",
-     "url": "https://www.cloudflarestatus.com/incidents/klub12zy71b4"
+     "title": "Network Performance Issues in Ashburn, IAD [minor, monitoring]",
+     "url": "https://www.cloudflarestatus.com/incidents/snth5ero95rz"
     }
    },
    "seeded": true
