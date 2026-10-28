@@ -1,7 +1,10 @@
 {
- "digest": [],
+ "digest": [
+  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Network Performance Issues in Ashburn, IAD [minor, monitoring]\n<a href=\"https://www.cloudflarestatus.com/incidents/snth5ero95rz\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-41709 \u2014 Broadcom VMWare ESX Insufficient Logging Vulnerability\nActively exploited. Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-41709\">link</a>"
+ ],
  "last_digest": "2026-10-28",
- "last_run": "2026-10-28T19:36:50Z",
+ "last_run": "2026-10-28T23:35:02Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-10-28",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-10-28",
@@ -1723,6 +1726,7 @@
   "kev:CVE-2026-39808": "2026-10-28",
   "kev:CVE-2026-39987": "2026-10-28",
   "kev:CVE-2026-41091": "2026-10-28",
+  "kev:CVE-2026-41709": "2026-10-28",
   "kev:CVE-2026-41940": "2026-10-28",
   "kev:CVE-2026-42016": "2026-10-28",
   "kev:CVE-2026-42018": "2026-10-28",
@@ -1733,6 +1737,7 @@
   "kev:CVE-2026-45321": "2026-10-28",
   "kev:CVE-2026-45498": "2026-10-28",
   "kev:CVE-2026-45659": "2026-10-28",
+  "kev:CVE-2026-46300": "2026-10-28",
   "kev:CVE-2026-46817": "2026-10-28",
   "kev:CVE-2026-48027": "2026-10-28",
   "kev:CVE-2026-48172": "2026-10-28",
@@ -2727,6 +2732,7 @@
   "sp:Cloudflare:qwrtvb4jfvk7": "2026-10-22",
   "sp:Cloudflare:qwrtvb4jfvk7:resolved": "2026-10-23",
   "sp:Cloudflare:snth5ero95rz": "2026-10-28",
+  "sp:Cloudflare:snth5ero95rz:resolved": "2026-10-28",
   "sp:Cloudflare:sufgcbe8rrwt": "2026-10-23",
   "sp:Cloudflare:sufgcbe8rrwt:resolved": "2026-10-23",
   "sp:Cloudflare:v967mz6rrcxw": "2026-10-22",
@@ -2747,13 +2753,7 @@
   },
   "Cloudflare": {
    "fails": 0,
-   "open": {
-    "sp:Cloudflare:snth5ero95rz": {
-     "level": "info",
-     "title": "Network Performance Issues in Ashburn, IAD [minor, monitoring]",
-     "url": "https://www.cloudflarestatus.com/incidents/snth5ero95rz"
-    }
-   },
+   "open": {},
    "seeded": true
   },
   "Docker": {
