@@ -1,7 +1,11 @@
 {
- "digest": [],
+ "digest": [
+  "\u2139\ufe0f <b>Cloudflare</b>: Increased Durable Objects, D1 and Workflows Error Rates [minor, investigating]\nCloudflare is investigating an issue where customers are experiencing elevated errors for operations on Increased Durable Objects, D1 and Workflows.\n<a href=\"https://www.cloudflarestatus.com/incidents/r4mz367vddi7\">link</a>",
+  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Increased D1 Error Rates [minor, monitoring]\n<a href=\"https://www.cloudflarestatus.com/incidents/6yfpsos7ksp3\">link</a>",
+  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Increased error rates and reduced success rates for Workflows operations [minor, investigating]\n<a href=\"https://www.cloudflarestatus.com/incidents/yt1i5fd4cis2\">link</a>"
+ ],
  "last_digest": "2026-10-29",
- "last_run": "2026-10-29T09:48:21Z",
+ "last_run": "2026-10-29T16:29:06Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-10-29",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-10-29",
@@ -2715,6 +2719,7 @@
   "sp:Cloudflare:3ts1mfzs0khz": "2026-10-23",
   "sp:Cloudflare:3ts1mfzs0khz:resolved": "2026-10-23",
   "sp:Cloudflare:6yfpsos7ksp3": "2026-10-29",
+  "sp:Cloudflare:6yfpsos7ksp3:resolved": "2026-10-29",
   "sp:Cloudflare:8m9a1fjjwxp5": "2026-10-23",
   "sp:Cloudflare:8m9a1fjjwxp5:resolved": "2026-10-23",
   "sp:Cloudflare:97y1vy5nsjrn": "2026-10-26",
@@ -2729,6 +2734,7 @@
   "sp:Cloudflare:lhdg2tq46faq:resolved": "2026-10-22",
   "sp:Cloudflare:qwrtvb4jfvk7": "2026-10-22",
   "sp:Cloudflare:qwrtvb4jfvk7:resolved": "2026-10-23",
+  "sp:Cloudflare:r4mz367vddi7": "2026-10-29",
   "sp:Cloudflare:snth5ero95rz": "2026-10-28",
   "sp:Cloudflare:snth5ero95rz:resolved": "2026-10-28",
   "sp:Cloudflare:sufgcbe8rrwt": "2026-10-23",
@@ -2736,6 +2742,7 @@
   "sp:Cloudflare:v967mz6rrcxw": "2026-10-22",
   "sp:Cloudflare:v967mz6rrcxw:resolved": "2026-10-23",
   "sp:Cloudflare:yt1i5fd4cis2": "2026-10-29",
+  "sp:Cloudflare:yt1i5fd4cis2:resolved": "2026-10-29",
   "sp:GitHub:71y513kjvbzh": "2026-10-23",
   "sp:GitHub:71y513kjvbzh:resolved": "2026-10-23",
   "sp:GitHub:wq8305lppdc2": "2026-10-22",
@@ -2753,15 +2760,10 @@
   "Cloudflare": {
    "fails": 0,
    "open": {
-    "sp:Cloudflare:6yfpsos7ksp3": {
+    "sp:Cloudflare:r4mz367vddi7": {
      "level": "info",
-     "title": "Increased D1 Error Rates [minor, monitoring]",
-     "url": "https://www.cloudflarestatus.com/incidents/6yfpsos7ksp3"
-    },
-    "sp:Cloudflare:yt1i5fd4cis2": {
-     "level": "info",
-     "title": "Increased error rates and reduced success rates for Workflows operations [minor, investigating]",
-     "url": "https://www.cloudflarestatus.com/incidents/yt1i5fd4cis2"
+     "title": "Increased Durable Objects, D1 and Workflows Error Rates [minor, investigating]",
+     "url": "https://www.cloudflarestatus.com/incidents/r4mz367vddi7"
     }
    },
    "seeded": true
