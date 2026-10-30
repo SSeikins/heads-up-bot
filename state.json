@@ -1,15 +1,7 @@
 {
- "digest": [
-  "\u2139\ufe0f <b>Cloudflare</b>: Increased Durable Objects, D1 and Workflows Error Rates [minor, investigating]\nCloudflare is investigating an issue where customers are experiencing elevated errors for operations on Increased Durable Objects, D1 and Workflows.\n<a href=\"https://www.cloudflarestatus.com/incidents/r4mz367vddi7\">link</a>",
-  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Increased D1 Error Rates [minor, monitoring]\n<a href=\"https://www.cloudflarestatus.com/incidents/6yfpsos7ksp3\">link</a>",
-  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Increased error rates and reduced success rates for Workflows operations [minor, investigating]\n<a href=\"https://www.cloudflarestatus.com/incidents/yt1i5fd4cis2\">link</a>",
-  "\u2139\ufe0f <b>Cloudflare</b>: R2 Elevated Latency in Eastern Europe [minor, investigating]\nCloudflare is investigating elevated latency affecting R2 requests in Eastern Europe. We are actively investigating and will provide further updates as soon as more information becomes available.\n<a href=\"https://www.cloudflarestatus.com/incidents/kp28d3kzgft1\">link</a>",
-  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Increased Durable Objects, D1 and Workflows Error Rates [minor, investigating]\n<a href=\"https://www.cloudflarestatus.com/incidents/r4mz367vddi7\">link</a>",
-  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-76418 \u2014 Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability\nActively exploited. Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-76418\">link</a>",
-  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: R2 Elevated Latency in Eastern Europe [minor, investigating]\n<a href=\"https://www.cloudflarestatus.com/incidents/kp28d3kzgft1\">link</a>"
- ],
- "last_digest": "2026-10-29",
- "last_run": "2026-10-30T01:13:57Z",
+ "digest": [],
+ "last_digest": "2026-10-30",
+ "last_run": "2026-10-30T07:15:46Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-10-30",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-10-30",
@@ -2717,7 +2709,7 @@
   "php:https://www.php.net/archive/2026.php#2026-10-21-5": "2026-10-30",
   "php:https://www.php.net/archive/2026.php#2026-10-21-6": "2026-10-30",
   "php:https://www.php.net/archive/2026.php#2026-10-23-1": "2026-10-30",
-  "php:https://www.php.net/archive/2026.php#2026-10-26-1": "2026-10-29",
+  "php:https://www.php.net/archive/2026.php#2026-10-26-1": "2026-10-30",
   "sp:Cloudflare:2eno8w1fk27j": "2026-10-27",
   "sp:Cloudflare:2eno8w1fk27j:resolved": "2026-10-27",
   "sp:Cloudflare:39fz3wkl42tr": "2026-10-24",
