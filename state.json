@@ -1,12 +1,7 @@
 {
- "digest": [
-  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-118527 \u2014 Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability\nActively exploited. Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-118527\">link</a>",
-  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-111357 \u2014 Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability\nActively exploited. Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-111357\">link</a>",
-  "\u2139\ufe0f <b>GitHub</b>: Incident with Dependabot [minor, monitoring]\nThe degradation has been mitigated. We are monitoring to ensure stability.\n<a href=\"https://stspg.io/5bh6qnzn76tk\">link</a>",
-  "\u2139\ufe0f <b>GitHub</b>: Resolved: Incident with Dependabot [minor, monitoring]\n<a href=\"https://stspg.io/5bh6qnzn76tk\">link</a>"
- ],
- "last_digest": "2026-10-30",
- "last_run": "2026-10-31T02:33:20Z",
+ "digest": [],
+ "last_digest": "2026-10-31",
+ "last_run": "2026-10-31T08:50:40Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-10-31",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-10-31",
