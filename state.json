@@ -1,7 +1,9 @@
 {
- "digest": [],
+ "digest": [
+  "\u2139\ufe0f <b>GitLab</b>: Upcoming maintenance for the Customers Portal\nCompleted - The database maintenance for the Customers Portal (customers.gitlab.com) is complete. The Customers Portal and its APIs are available again and working normally. Thank you for your patience.\n<a href=\"https://status.io/pages/maintenance/5b36dc6502d06804c08349f7/6ae4e0ec288fd505bb996e82\">link</a>"
+ ],
  "last_digest": "2026-10-31",
- "last_run": "2026-10-31T08:50:40Z",
+ "last_run": "2026-10-31T14:55:18Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-10-31",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-10-31",
@@ -59,6 +61,7 @@
   "feed:GitLab:6ad7e38fa8d54c04f58bf921:resolved": "2026-10-31",
   "feed:GitLab:6adb8c29934fd905c8658aae": "2026-10-31",
   "feed:GitLab:6adb8c29934fd905c8658aae:resolved": "2026-10-31",
+  "feed:GitLab:6ae4e0ec288fd505bb996e82": "2026-10-31",
   "kev:CVE-2002-0367": "2026-10-31",
   "kev:CVE-2004-0210": "2026-10-31",
   "kev:CVE-2004-1464": "2026-10-31",
