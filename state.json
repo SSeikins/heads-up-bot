@@ -1,9 +1,7 @@
 {
- "digest": [
-  "\u2139\ufe0f <b>Docker</b>: Maintenance: Authentication tenant maintenance\nStatus: Scheduled (Thu, 05 Nov 2026 16:00:00 GMT - Thu, 05 Nov 2026 22:00:00 GMT) We will be performing maintenance on our authentication tenant. No disruption is expected. Affected components Docker Authentication (Under maintenance)\n<a href=\"https://www.dockerstatus.com//incidents/01M6F6JFDP4FBPDRBACCEJRPGG\">link</a>"
- ],
- "last_digest": "2026-11-02",
- "last_run": "2026-11-03T02:29:47Z",
+ "digest": [],
+ "last_digest": "2026-11-03",
+ "last_run": "2026-11-03T09:58:13Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-03",
@@ -63,6 +61,8 @@
   "feed:GitLab:6adb8c29934fd905c8658aae": "2026-11-03",
   "feed:GitLab:6adb8c29934fd905c8658aae:resolved": "2026-11-03",
   "feed:GitLab:6ae4e0ec288fd505bb996e82": "2026-11-03",
+  "feed:GitLab:6ae96be253636805c01bc4ec": "2026-11-03",
+  "feed:GitLab:6ae96be253636805c01bc4ec:resolved": "2026-11-03",
   "kev:CVE-2002-0367": "2026-11-03",
   "kev:CVE-2004-0210": "2026-11-03",
   "kev:CVE-2004-1464": "2026-11-03",
@@ -2715,7 +2715,7 @@
   "php:https://www.php.net/archive/2026.php#2026-10-21-5": "2026-11-03",
   "php:https://www.php.net/archive/2026.php#2026-10-21-6": "2026-11-03",
   "php:https://www.php.net/archive/2026.php#2026-10-23-1": "2026-11-03",
-  "php:https://www.php.net/archive/2026.php#2026-10-26-1": "2026-11-02",
+  "php:https://www.php.net/archive/2026.php#2026-10-26-1": "2026-11-03",
   "sp:Cloudflare:2eno8w1fk27j": "2026-10-27",
   "sp:Cloudflare:2eno8w1fk27j:resolved": "2026-10-27",
   "sp:Cloudflare:39fz3wkl42tr": "2026-10-24",
