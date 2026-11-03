@@ -1,9 +1,11 @@
 {
  "digest": [
-  "\u2139\ufe0f <b>Cloudflare</b>: Cloudflare Workers and Pages build errors  [minor, monitoring]\nQueue times are returning to normal. Customers with failed builds can \"Retry\" via the Dashboard or pushing a new commit.\n<a href=\"https://www.cloudflarestatus.com/incidents/nbyxn84kvb6o\">link</a>"
+  "\u2139\ufe0f <b>Cloudflare</b>: Cloudflare Workers and Pages build errors  [minor, monitoring]\nQueue times are returning to normal. Customers with failed builds can \"Retry\" via the Dashboard or pushing a new commit.\n<a href=\"https://www.cloudflarestatus.com/incidents/nbyxn84kvb6o\">link</a>",
+  "\u2139\ufe0f <b>GitHub</b>: Incident with Git Operations [minor, investigating]\nOur mitigation is rolled out and customers should start seeing improvements to Git Operations. We will continue to provide updates on mitigation status.\n<a href=\"https://stspg.io/n478rfsspcmr\">link</a>",
+  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Cloudflare Workers and Pages build errors  [minor, monitoring]\n<a href=\"https://www.cloudflarestatus.com/incidents/nbyxn84kvb6o\">link</a>"
  ],
  "last_digest": "2026-11-03",
- "last_run": "2026-11-03T17:43:33Z",
+ "last_run": "2026-11-03T22:34:36Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-03",
@@ -66,6 +68,7 @@
   "feed:GitLab:6ae96be253636805c01bc4ec": "2026-11-03",
   "feed:GitLab:6ae96be253636805c01bc4ec:resolved": "2026-11-03",
   "feed:GitLab:6aea17ef472f0d0412bca4e1": "2026-11-03",
+  "feed:GitLab:6aea17ef472f0d0412bca4e1:resolved": "2026-11-03",
   "kev:CVE-2002-0367": "2026-11-03",
   "kev:CVE-2004-0210": "2026-11-03",
   "kev:CVE-2004-1464": "2026-11-03",
@@ -1659,6 +1662,7 @@
   "kev:CVE-2026-114625": "2026-11-03",
   "kev:CVE-2026-11645": "2026-11-03",
   "kev:CVE-2026-118527": "2026-11-03",
+  "kev:CVE-2026-119977": "2026-11-03",
   "kev:CVE-2026-12569": "2026-11-03",
   "kev:CVE-2026-1281": "2026-11-03",
   "kev:CVE-2026-1340": "2026-11-03",
@@ -2742,6 +2746,7 @@
   "sp:Cloudflare:lhdg2tq46faq": "2026-10-22",
   "sp:Cloudflare:lhdg2tq46faq:resolved": "2026-10-22",
   "sp:Cloudflare:nbyxn84kvb6o": "2026-11-03",
+  "sp:Cloudflare:nbyxn84kvb6o:resolved": "2026-11-03",
   "sp:Cloudflare:qwrtvb4jfvk7": "2026-10-22",
   "sp:Cloudflare:qwrtvb4jfvk7:resolved": "2026-10-23",
   "sp:Cloudflare:r4mz367vddi7": "2026-10-29",
@@ -2754,6 +2759,7 @@
   "sp:Cloudflare:v967mz6rrcxw:resolved": "2026-10-23",
   "sp:Cloudflare:yt1i5fd4cis2": "2026-10-29",
   "sp:Cloudflare:yt1i5fd4cis2:resolved": "2026-10-29",
+  "sp:GitHub:13b6lyl8d7bz": "2026-11-03",
   "sp:GitHub:71y513kjvbzh": "2026-10-23",
   "sp:GitHub:71y513kjvbzh:resolved": "2026-10-23",
   "sp:GitHub:lyyfm7j4pkgl": "2026-10-30",
@@ -2772,13 +2778,7 @@
   },
   "Cloudflare": {
    "fails": 0,
-   "open": {
-    "sp:Cloudflare:nbyxn84kvb6o": {
-     "level": "info",
-     "title": "Cloudflare Workers and Pages build errors  [minor, monitoring]",
-     "url": "https://www.cloudflarestatus.com/incidents/nbyxn84kvb6o"
-    }
-   },
+   "open": {},
    "seeded": true
   },
   "Docker": {
@@ -2792,7 +2792,13 @@
   },
   "GitHub": {
    "fails": 0,
-   "open": {},
+   "open": {
+    "sp:GitHub:13b6lyl8d7bz": {
+     "level": "info",
+     "title": "Incident with Git Operations [minor, investigating]",
+     "url": "https://stspg.io/n478rfsspcmr"
+    }
+   },
    "seeded": true
   },
   "GitLab": {
