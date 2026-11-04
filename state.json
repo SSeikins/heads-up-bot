@@ -1,7 +1,9 @@
 {
- "digest": [],
+ "digest": [
+  "\u2139\ufe0f <b>GitHub</b>: Resolved: Increased task-related errors for Copilot Mission Control [minor, investigating]\n<a href=\"https://stspg.io/hj74883wgn0t\">link</a>"
+ ],
  "last_digest": "2026-11-04",
- "last_run": "2026-11-04T09:56:42Z",
+ "last_run": "2026-11-04T17:56:11Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-04",
@@ -2759,10 +2761,13 @@
   "sp:GitHub:13b6lyl8d7bz:resolved": "2026-11-04",
   "sp:GitHub:71y513kjvbzh": "2026-10-23",
   "sp:GitHub:71y513kjvbzh:resolved": "2026-10-23",
+  "sp:GitHub:h02n9572mx9y": "2026-11-04",
   "sp:GitHub:lyyfm7j4pkgl": "2026-10-30",
   "sp:GitHub:lyyfm7j4pkgl:resolved": "2026-10-31",
   "sp:GitHub:smtdswd1h2w4": "2026-11-04",
+  "sp:GitHub:smtdswd1h2w4:resolved": "2026-11-04",
   "sp:GitHub:tc28c0wzrnpz": "2026-11-04",
+  "sp:GitHub:tc28c0wzrnpz:resolved": "2026-11-04",
   "sp:GitHub:wq8305lppdc2": "2026-10-22",
   "sp:GitHub:wq8305lppdc2:resolved": "2026-10-23"
  },
@@ -2792,15 +2797,10 @@
   "GitHub": {
    "fails": 0,
    "open": {
-    "sp:GitHub:smtdswd1h2w4": {
+    "sp:GitHub:h02n9572mx9y": {
      "level": "crit",
-     "title": "Incident with Pull Requests, Git Operations and Issues [major, investigating]",
-     "url": "https://stspg.io/18blsgwnbyy6"
-    },
-    "sp:GitHub:tc28c0wzrnpz": {
-     "level": "info",
-     "title": "Increased task-related errors for Copilot Mission Control [minor, investigating]",
-     "url": "https://stspg.io/hj74883wgn0t"
+     "title": "Incident with Actions [major, investigating]",
+     "url": "https://stspg.io/7pwv28hvkmz8"
     }
    },
    "seeded": true
