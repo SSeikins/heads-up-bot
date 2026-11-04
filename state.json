@@ -1,12 +1,7 @@
 {
- "digest": [
-  "\u2139\ufe0f <b>Cloudflare</b>: Cloudflare Workers and Pages build errors  [minor, monitoring]\nQueue times are returning to normal. Customers with failed builds can \"Retry\" via the Dashboard or pushing a new commit.\n<a href=\"https://www.cloudflarestatus.com/incidents/nbyxn84kvb6o\">link</a>",
-  "\u2139\ufe0f <b>GitHub</b>: Incident with Git Operations [minor, investigating]\nOur mitigation is rolled out and customers should start seeing improvements to Git Operations. We will continue to provide updates on mitigation status.\n<a href=\"https://stspg.io/n478rfsspcmr\">link</a>",
-  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Cloudflare Workers and Pages build errors  [minor, monitoring]\n<a href=\"https://www.cloudflarestatus.com/incidents/nbyxn84kvb6o\">link</a>",
-  "\u2139\ufe0f <b>GitHub</b>: Resolved: Incident with Git Operations [minor, investigating]\n<a href=\"https://stspg.io/n478rfsspcmr\">link</a>"
- ],
- "last_digest": "2026-11-03",
- "last_run": "2026-11-04T02:43:17Z",
+ "digest": [],
+ "last_digest": "2026-11-04",
+ "last_run": "2026-11-04T09:56:42Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-04",
@@ -2766,6 +2761,8 @@
   "sp:GitHub:71y513kjvbzh:resolved": "2026-10-23",
   "sp:GitHub:lyyfm7j4pkgl": "2026-10-30",
   "sp:GitHub:lyyfm7j4pkgl:resolved": "2026-10-31",
+  "sp:GitHub:smtdswd1h2w4": "2026-11-04",
+  "sp:GitHub:tc28c0wzrnpz": "2026-11-04",
   "sp:GitHub:wq8305lppdc2": "2026-10-22",
   "sp:GitHub:wq8305lppdc2:resolved": "2026-10-23"
  },
@@ -2794,7 +2791,18 @@
   },
   "GitHub": {
    "fails": 0,
-   "open": {},
+   "open": {
+    "sp:GitHub:smtdswd1h2w4": {
+     "level": "crit",
+     "title": "Incident with Pull Requests, Git Operations and Issues [major, investigating]",
+     "url": "https://stspg.io/18blsgwnbyy6"
+    },
+    "sp:GitHub:tc28c0wzrnpz": {
+     "level": "info",
+     "title": "Increased task-related errors for Copilot Mission Control [minor, investigating]",
+     "url": "https://stspg.io/hj74883wgn0t"
+    }
+   },
    "seeded": true
   },
   "GitLab": {
