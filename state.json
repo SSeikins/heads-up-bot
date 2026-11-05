@@ -1,11 +1,7 @@
 {
- "digest": [
-  "\u2139\ufe0f <b>GitHub</b>: Resolved: Increased task-related errors for Copilot Mission Control [minor, investigating]\n<a href=\"https://stspg.io/hj74883wgn0t\">link</a>",
-  "\u2139\ufe0f <b>Docker</b>: Maintenance: Docker Build Cloud maintenance\nStatus: Scheduled (Thu, 05 Nov 2026 05:00:00 GMT - Thu, 05 Nov 2026 07:00:00 GMT) We\u2019re performing planned maintenance on Docker Build Cloud. Some builds may be interrupted or fail to start during this window. We\u2019ll mark this complete when the work is finished. Affected components Docker Build Clou\u2026\n<a href=\"https://www.dockerstatus.com//incidents/01M6M84BZBQ71SPV2BJ91GEP7D\">link</a>",
-  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2024-27834 \u2014 Apple Multiple Products Improper Authentication Vulnerability\nActively exploited. Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2024-27834\">link</a>"
- ],
- "last_digest": "2026-11-04",
- "last_run": "2026-11-05T03:42:49Z",
+ "digest": [],
+ "last_digest": "2026-11-05",
+ "last_run": "2026-11-05T11:36:51Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-05",
@@ -25,6 +21,7 @@
   "certlv:https://cert.lv/en/2026/06/eu-cyber-rapid-response-team-crrt-concludes-deployment-in-support-of-the-republic-of-armenia-s-cybersecurity": "2026-11-05",
   "certlv:https://cert.lv/en/2026/09/cert-lv-activity-review-q2-2026": "2026-11-05",
   "certlv:https://cert.lv/en/2026/09/cyberchess-2026-brings-the-international-cybersecurity-community-together-in-riga": "2026-11-05",
+  "certlv:https://cert.lv/en/2026/11/latvia-and-canada-hold-fifth-joint-threat-hunting-workshop": "2026-11-05",
   "feed:Docker:https://www.dockerstatus.com//incidents/01M0DR2NWR0BVRGDWS0VHYBHCV": "2026-11-02",
   "feed:Docker:https://www.dockerstatus.com//incidents/01M0DR2NWR0BVRGDWS0VHYBHCV:resolved": "2026-11-02",
   "feed:Docker:https://www.dockerstatus.com//incidents/01M0DR2PEPVJ4MAZJ2ZT5V743Z": "2026-11-05",
