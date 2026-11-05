@@ -1,7 +1,9 @@
 {
- "digest": [],
+ "digest": [
+  "\u2139\ufe0f <b>Cloudflare</b>: Increased Errors for Durable Objects in Western Europe [minor, monitoring]\nCloudflare investigated an issue that caused an increase of errors for Durable Objects in Western Europe. The issue has been resolved and we are monitoring the results.\n<a href=\"https://www.cloudflarestatus.com/incidents/oy8gxjb38yse\">link</a>"
+ ],
  "last_digest": "2026-11-05",
- "last_run": "2026-11-05T11:36:51Z",
+ "last_run": "2026-11-05T18:59:35Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-05",
@@ -2746,6 +2748,7 @@
   "sp:Cloudflare:lhdg2tq46faq:resolved": "2026-10-22",
   "sp:Cloudflare:nbyxn84kvb6o": "2026-11-03",
   "sp:Cloudflare:nbyxn84kvb6o:resolved": "2026-11-03",
+  "sp:Cloudflare:oy8gxjb38yse": "2026-11-05",
   "sp:Cloudflare:qwrtvb4jfvk7": "2026-10-22",
   "sp:Cloudflare:qwrtvb4jfvk7:resolved": "2026-10-23",
   "sp:Cloudflare:r4mz367vddi7": "2026-10-29",
@@ -2784,7 +2787,13 @@
   },
   "Cloudflare": {
    "fails": 0,
-   "open": {},
+   "open": {
+    "sp:Cloudflare:oy8gxjb38yse": {
+     "level": "info",
+     "title": "Increased Errors for Durable Objects in Western Europe [minor, monitoring]",
+     "url": "https://www.cloudflarestatus.com/incidents/oy8gxjb38yse"
+    }
+   },
    "seeded": true
   },
   "Docker": {
