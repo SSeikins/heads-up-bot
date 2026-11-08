@@ -1,7 +1,7 @@
 {
  "digest": [],
- "last_digest": "2026-11-07",
- "last_run": "2026-11-08T01:01:44Z",
+ "last_digest": "2026-11-08",
+ "last_run": "2026-11-08T07:14:25Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-08",
@@ -2723,7 +2723,7 @@
   "php:https://www.php.net/archive/2026.php#2026-10-21-6": "2026-11-08",
   "php:https://www.php.net/archive/2026.php#2026-10-23-1": "2026-11-08",
   "php:https://www.php.net/archive/2026.php#2026-10-26-1": "2026-11-08",
-  "php:https://www.php.net/archive/2026.php#2026-11-05-1": "2026-11-07",
+  "php:https://www.php.net/archive/2026.php#2026-11-05-1": "2026-11-08",
   "sp:Cloudflare:2eno8w1fk27j": "2026-10-27",
   "sp:Cloudflare:2eno8w1fk27j:resolved": "2026-10-27",
   "sp:Cloudflare:39fz3wkl42tr": "2026-10-24",
