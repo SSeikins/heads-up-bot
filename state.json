@@ -1,7 +1,13 @@
 {
- "digest": [],
+ "digest": [
+  "\u2139\ufe0f <b>Cloudflare</b>: Changes made to Workers may be delayed or disrupted [minor, monitoring]\nWe are continuing to monitor for any further issues.\n<a href=\"https://www.cloudflarestatus.com/incidents/1x0tbxpmmttu\">link</a>",
+  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Spectrum Availability Issue in Phoenix [minor, monitoring]\n<a href=\"https://www.cloudflarestatus.com/incidents/c60k3g4vsoc1\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-102895 \u2014 GPUStack Improper Authentication Vulnerability\nActively exploited. GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/fr\u2026\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-102895\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-116779 \u2014 SignalWire FreeSwitch Code Injection Vulnerability\nActively exploited. SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-116779\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-123218 \u2014 IBM Aspera Faspex Incorrect Authorization Vulnerability\nActively exploited. IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-123218\">link</a>"
+ ],
  "last_digest": "2026-11-09",
- "last_run": "2026-11-09T09:48:44Z",
+ "last_run": "2026-11-09T20:14:21Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-09",
@@ -1646,6 +1652,7 @@
   "kev:CVE-2026-102489": "2026-11-09",
   "kev:CVE-2026-102490": "2026-11-09",
   "kev:CVE-2026-102764": "2026-11-09",
+  "kev:CVE-2026-102895": "2026-11-09",
   "kev:CVE-2026-104286": "2026-11-09",
   "kev:CVE-2026-104935": "2026-11-09",
   "kev:CVE-2026-105133": "2026-11-09",
@@ -1660,8 +1667,11 @@
   "kev:CVE-2026-111497": "2026-11-09",
   "kev:CVE-2026-114625": "2026-11-09",
   "kev:CVE-2026-11645": "2026-11-09",
+  "kev:CVE-2026-116779": "2026-11-09",
   "kev:CVE-2026-118527": "2026-11-09",
   "kev:CVE-2026-119977": "2026-11-09",
+  "kev:CVE-2026-123158": "2026-11-09",
+  "kev:CVE-2026-123218": "2026-11-09",
   "kev:CVE-2026-12569": "2026-11-09",
   "kev:CVE-2026-1281": "2026-11-09",
   "kev:CVE-2026-1340": "2026-11-09",
@@ -2724,6 +2734,7 @@
   "php:https://www.php.net/archive/2026.php#2026-10-23-1": "2026-11-09",
   "php:https://www.php.net/archive/2026.php#2026-10-26-1": "2026-11-09",
   "php:https://www.php.net/archive/2026.php#2026-11-05-1": "2026-11-09",
+  "sp:Cloudflare:1x0tbxpmmttu": "2026-11-09",
   "sp:Cloudflare:2eno8w1fk27j": "2026-10-27",
   "sp:Cloudflare:2eno8w1fk27j:resolved": "2026-10-27",
   "sp:Cloudflare:39fz3wkl42tr": "2026-10-24",
@@ -2739,6 +2750,7 @@
   "sp:Cloudflare:9g65dxfbcjln": "2026-10-22",
   "sp:Cloudflare:9g65dxfbcjln:resolved": "2026-10-22",
   "sp:Cloudflare:c60k3g4vsoc1": "2026-11-07",
+  "sp:Cloudflare:c60k3g4vsoc1:resolved": "2026-11-09",
   "sp:Cloudflare:klub12zy71b4": "2026-10-28",
   "sp:Cloudflare:klub12zy71b4:resolved": "2026-10-28",
   "sp:Cloudflare:kp28d3kzgft1": "2026-10-29",
@@ -2793,10 +2805,10 @@
   "Cloudflare": {
    "fails": 0,
    "open": {
-    "sp:Cloudflare:c60k3g4vsoc1": {
+    "sp:Cloudflare:1x0tbxpmmttu": {
      "level": "info",
-     "title": "Spectrum Availability Issue in Phoenix [minor, monitoring]",
-     "url": "https://www.cloudflarestatus.com/incidents/c60k3g4vsoc1"
+     "title": "Changes made to Workers may be delayed or disrupted [minor, monitoring]",
+     "url": "https://www.cloudflarestatus.com/incidents/1x0tbxpmmttu"
     },
     "sp:Cloudflare:wp49bp8bqo6c": {
      "level": "info",
