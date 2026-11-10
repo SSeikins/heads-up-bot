@@ -1,7 +1,15 @@
 {
- "digest": [],
+ "digest": [
+  "\u2139\ufe0f <b>Cloudflare</b>: Network Performance Issues in St. Louis, USA [minor, monitoring]\nCloudflare has identified issues with network performance in St. Louis (STL), USA. A fix has been implemented and we're monitoring the results.\n<a href=\"https://www.cloudflarestatus.com/incidents/1h9c85fz6bm3\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-124194 \u2014 Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability\nActively exploited. Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-124194\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-111793 \u2014 Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability\nActively exploited. Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-111793\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-20320 \u2014 Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability\nActively exploited. Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-20320\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-111560 \u2014 Barracuda Networks Multiple Products OS Command Injection Vulnerability\nActively exploited. Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an au\u2026\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-111560\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-116606 \u2014 Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability\nActively exploited. Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification\u2026\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-116606\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-125350 \u2014 Google Chromium Use-After-Free Vulnerability\nActively exploited. Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, G\u2026\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-125350\">link</a>"
+ ],
  "last_digest": "2026-11-10",
- "last_run": "2026-11-10T18:13:11Z",
+ "last_run": "2026-11-10T23:29:05Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-10",
@@ -1659,13 +1667,18 @@
   "kev:CVE-2026-110936": "2026-11-10",
   "kev:CVE-2026-111357": "2026-11-10",
   "kev:CVE-2026-111497": "2026-11-10",
+  "kev:CVE-2026-111560": "2026-11-10",
+  "kev:CVE-2026-111793": "2026-11-10",
   "kev:CVE-2026-114625": "2026-11-10",
   "kev:CVE-2026-11645": "2026-11-10",
+  "kev:CVE-2026-116606": "2026-11-10",
   "kev:CVE-2026-116779": "2026-11-10",
   "kev:CVE-2026-118527": "2026-11-10",
   "kev:CVE-2026-119977": "2026-11-10",
   "kev:CVE-2026-123158": "2026-11-10",
   "kev:CVE-2026-123218": "2026-11-10",
+  "kev:CVE-2026-124194": "2026-11-10",
+  "kev:CVE-2026-125350": "2026-11-10",
   "kev:CVE-2026-12569": "2026-11-10",
   "kev:CVE-2026-1281": "2026-11-10",
   "kev:CVE-2026-1340": "2026-11-10",
@@ -1692,6 +1705,7 @@
   "kev:CVE-2026-20253": "2026-11-10",
   "kev:CVE-2026-20262": "2026-11-10",
   "kev:CVE-2026-20316": "2026-11-10",
+  "kev:CVE-2026-20320": "2026-11-10",
   "kev:CVE-2026-20349": "2026-11-10",
   "kev:CVE-2026-20700": "2026-11-10",
   "kev:CVE-2026-20805": "2026-11-10",
@@ -2729,6 +2743,7 @@
   "php:https://www.php.net/archive/2026.php#2026-10-26-1": "2026-11-10",
   "php:https://www.php.net/archive/2026.php#2026-11-05-1": "2026-11-10",
   "sp:Cloudflare:0ocqieaifg7h": "2026-11-10",
+  "sp:Cloudflare:1h9c85fz6bm3": "2026-11-10",
   "sp:Cloudflare:1x0tbxpmmttu": "2026-11-09",
   "sp:Cloudflare:1x0tbxpmmttu:resolved": "2026-11-10",
   "sp:Cloudflare:2eno8w1fk27j": "2026-10-27",
@@ -2805,6 +2820,11 @@
      "level": "info",
      "title": "Changes to Cloudflare Workers are not producing Event Subscription events [minor, investigating]",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
+    },
+    "sp:Cloudflare:1h9c85fz6bm3": {
+     "level": "info",
+     "title": "Network Performance Issues in St. Louis, USA [minor, monitoring]",
+     "url": "https://www.cloudflarestatus.com/incidents/1h9c85fz6bm3"
     },
     "sp:Cloudflare:wp49bp8bqo6c": {
      "level": "info",
