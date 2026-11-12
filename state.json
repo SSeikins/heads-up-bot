@@ -1,7 +1,9 @@
 {
- "digest": [],
+ "digest": [
+  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Fedramp Customers have Delayed Purges [minor, identified]\n<a href=\"https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c\">link</a>"
+ ],
  "last_digest": "2026-11-12",
- "last_run": "2026-11-12T16:23:53Z",
+ "last_run": "2026-11-12T22:23:46Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-12",
@@ -2778,6 +2780,7 @@
   "sp:Cloudflare:v967mz6rrcxw": "2026-10-22",
   "sp:Cloudflare:v967mz6rrcxw:resolved": "2026-10-23",
   "sp:Cloudflare:wp49bp8bqo6c": "2026-11-06",
+  "sp:Cloudflare:wp49bp8bqo6c:resolved": "2026-11-12",
   "sp:Cloudflare:yt1i5fd4cis2": "2026-10-29",
   "sp:Cloudflare:yt1i5fd4cis2:resolved": "2026-10-29",
   "sp:Cloudflare:yu63fhh2peb7": "2026-11-11",
@@ -2815,11 +2818,6 @@
      "title": "Changes to Cloudflare Workers are not producing Event Subscription events [minor, investigating]",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
     },
-    "sp:Cloudflare:wp49bp8bqo6c": {
-     "level": "info",
-     "title": "Fedramp Customers have Delayed Purges [minor, identified]",
-     "url": "https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c"
-    },
     "sp:Cloudflare:yu63fhh2peb7": {
      "level": "info",
      "title": "Replicate Input Upload Issue [minor, identified]",
@@ -2847,7 +2845,7 @@
    "seeded": true
   },
   "NVD": {
-   "fails": 1,
+   "fails": 0,
    "seeded": true
   },
   "php.net": {
