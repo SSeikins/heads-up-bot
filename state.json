@@ -1,7 +1,10 @@
 {
- "digest": [],
+ "digest": [
+  "\u2139\ufe0f <b>Cloudflare</b>: Cloudflare is seeing an issue with Workers API availability [minor, monitoring]\nA fix has been implemented and we are monitoring the results.\n<a href=\"https://www.cloudflarestatus.com/incidents/e7ktq32gphhe\">link</a>",
+  "\u2139\ufe0f <b>Cloudflare</b>: Cloudflare is currently having an issue with the r8.im registry used for Replicate model publishing and builds is currently restricted [minor, identified]\nThe issue has been identified and a fix is being implemented.\n<a href=\"https://www.cloudflarestatus.com/incidents/mc91s22odfvf\">link</a>"
+ ],
  "last_digest": "2026-11-13",
- "last_run": "2026-11-13T10:10:29Z",
+ "last_run": "2026-11-13T17:45:41Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-13",
@@ -2757,6 +2760,7 @@
   "sp:Cloudflare:9zxr2bkqoct7:resolved": "2026-11-13",
   "sp:Cloudflare:c60k3g4vsoc1": "2026-11-07",
   "sp:Cloudflare:c60k3g4vsoc1:resolved": "2026-11-09",
+  "sp:Cloudflare:e7ktq32gphhe": "2026-11-13",
   "sp:Cloudflare:klub12zy71b4": "2026-10-28",
   "sp:Cloudflare:klub12zy71b4:resolved": "2026-10-28",
   "sp:Cloudflare:kp28d3kzgft1": "2026-10-29",
@@ -2765,6 +2769,7 @@
   "sp:Cloudflare:l3d16334tgjp:resolved": "2026-10-22",
   "sp:Cloudflare:lhdg2tq46faq": "2026-10-22",
   "sp:Cloudflare:lhdg2tq46faq:resolved": "2026-10-22",
+  "sp:Cloudflare:mc91s22odfvf": "2026-11-13",
   "sp:Cloudflare:nbyxn84kvb6o": "2026-11-03",
   "sp:Cloudflare:nbyxn84kvb6o:resolved": "2026-11-03",
   "sp:Cloudflare:oy8gxjb38yse": "2026-11-05",
@@ -2787,6 +2792,7 @@
   "sp:Cloudflare:yu63fhh2peb7:resolved": "2026-11-13",
   "sp:GitHub:13b6lyl8d7bz": "2026-11-03",
   "sp:GitHub:13b6lyl8d7bz:resolved": "2026-11-04",
+  "sp:GitHub:1xzmt89vv61l": "2026-11-13",
   "sp:GitHub:71y513kjvbzh": "2026-10-23",
   "sp:GitHub:71y513kjvbzh:resolved": "2026-10-23",
   "sp:GitHub:h02n9572mx9y": "2026-11-04",
@@ -2818,6 +2824,16 @@
      "level": "info",
      "title": "Changes to Cloudflare Workers are not producing Event Subscription events [minor, investigating]",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
+    },
+    "sp:Cloudflare:e7ktq32gphhe": {
+     "level": "info",
+     "title": "Cloudflare is seeing an issue with Workers API availability [minor, monitoring]",
+     "url": "https://www.cloudflarestatus.com/incidents/e7ktq32gphhe"
+    },
+    "sp:Cloudflare:mc91s22odfvf": {
+     "level": "info",
+     "title": "Cloudflare is currently having an issue with the r8.im registry used for Replicate model publishing and builds is currently restricted [minor, identified]",
+     "url": "https://www.cloudflarestatus.com/incidents/mc91s22odfvf"
     }
    },
    "seeded": true
@@ -2833,7 +2849,13 @@
   },
   "GitHub": {
    "fails": 0,
-   "open": {},
+   "open": {
+    "sp:GitHub:1xzmt89vv61l": {
+     "level": "crit",
+     "title": "Incident with Pull Requests [major, monitoring]",
+     "url": "https://stspg.io/qzj7qjdcr8jc"
+    }
+   },
    "seeded": true
   },
   "GitLab": {
