@@ -1,9 +1,10 @@
 {
  "digest": [
-  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Cloudflare is seeing an issue with Workers API availability [minor, monitoring]\n<a href=\"https://www.cloudflarestatus.com/incidents/e7ktq32gphhe\">link</a>"
+  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Cloudflare is seeing an issue with Workers API availability [minor, monitoring]\n<a href=\"https://www.cloudflarestatus.com/incidents/e7ktq32gphhe\">link</a>",
+  "\u2139\ufe0f <b>php.net</b>: PHP 8.6.0RC7 available for testing\n<a href=\"https://www.php.net/index.php#2026-11-12-1\">link</a>"
  ],
  "last_digest": "2026-11-14",
- "last_run": "2026-11-14T16:38:03Z",
+ "last_run": "2026-11-14T20:56:25Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-14",
@@ -2738,6 +2739,7 @@
   "php:https://www.php.net/archive/2026.php#2026-10-23-1": "2026-11-14",
   "php:https://www.php.net/archive/2026.php#2026-10-26-1": "2026-11-14",
   "php:https://www.php.net/archive/2026.php#2026-11-05-1": "2026-11-14",
+  "php:https://www.php.net/archive/2026.php#2026-11-12-1": "2026-11-14",
   "sp:Cloudflare:0ocqieaifg7h": "2026-11-10",
   "sp:Cloudflare:1h9c85fz6bm3": "2026-11-10",
   "sp:Cloudflare:1h9c85fz6bm3:resolved": "2026-11-11",
