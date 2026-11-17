@@ -1,10 +1,13 @@
 {
  "digest": [
   "\u2139\ufe0f <b>Cloudflare</b>: Network performance issues in Los Angeles (LAX) and Frankfurt (FRA) datacenters [minor, identified]\nThe issue has been identified and a fix is being implemented.\n<a href=\"https://www.cloudflarestatus.com/incidents/du63c25qjgjs\">link</a>",
-  "\u2139\ufe0f <b>Cloudflare</b>: Errors and stalled predictions on some models [minor, identified]\nThe issue has been identified and a fix is being implemented. Current impact: prediction requests for some models may return HTTP 500 errors, and some predictions may stay in a processing state. Customers using the API may also see validation errors on responses.\n<a href=\"https://www.cloudflarestatus.com/incidents/sv9tnfpjiojf\">link</a>"
+  "\u2139\ufe0f <b>Cloudflare</b>: Errors and stalled predictions on some models [minor, identified]\nThe issue has been identified and a fix is being implemented. Current impact: prediction requests for some models may return HTTP 500 errors, and some predictions may stay in a processing state. Customers using the API may also see validation errors on responses.\n<a href=\"https://www.cloudflarestatus.com/incidents/sv9tnfpjiojf\">link</a>",
+  "\u2139\ufe0f <b>Cloudflare</b>: Issues with Durable Objects and Dependent Services [minor, investigating]\nWe are investigating reports of elevated timeout rates and performance degradation affecting Durable Objects. This may impact dependent services, including Stream and Containers. Our team is actively investigating, and further updates will be provided shortly.\n<a href=\"https://www.cloudflarestatus.com/incidents/ylj5po752g6h\">link</a>",
+  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Network performance issues in Los Angeles (LAX) and Frankfurt (FRA) datacenters [minor, identified]\n<a href=\"https://www.cloudflarestatus.com/incidents/du63c25qjgjs\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-115731 \u2014 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability\nActively exploited. Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet\u2019s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data\u2026\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-115731\">link</a>"
  ],
  "last_digest": "2026-11-17",
- "last_run": "2026-11-17T17:42:32Z",
+ "last_run": "2026-11-17T23:58:53Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-17",
@@ -1666,6 +1669,7 @@
   "kev:CVE-2026-111793": "2026-11-17",
   "kev:CVE-2026-114625": "2026-11-17",
   "kev:CVE-2026-114713": "2026-11-17",
+  "kev:CVE-2026-115731": "2026-11-17",
   "kev:CVE-2026-11645": "2026-11-17",
   "kev:CVE-2026-116606": "2026-11-17",
   "kev:CVE-2026-116779": "2026-11-17",
@@ -2764,6 +2768,7 @@
   "sp:Cloudflare:c60k3g4vsoc1": "2026-11-07",
   "sp:Cloudflare:c60k3g4vsoc1:resolved": "2026-11-09",
   "sp:Cloudflare:du63c25qjgjs": "2026-11-17",
+  "sp:Cloudflare:du63c25qjgjs:resolved": "2026-11-17",
   "sp:Cloudflare:e7ktq32gphhe": "2026-11-13",
   "sp:Cloudflare:e7ktq32gphhe:resolved": "2026-11-14",
   "sp:Cloudflare:klub12zy71b4": "2026-10-28",
@@ -2793,6 +2798,7 @@
   "sp:Cloudflare:v967mz6rrcxw:resolved": "2026-10-23",
   "sp:Cloudflare:wp49bp8bqo6c": "2026-11-06",
   "sp:Cloudflare:wp49bp8bqo6c:resolved": "2026-11-12",
+  "sp:Cloudflare:ylj5po752g6h": "2026-11-17",
   "sp:Cloudflare:yt1i5fd4cis2": "2026-10-29",
   "sp:Cloudflare:yt1i5fd4cis2:resolved": "2026-10-29",
   "sp:Cloudflare:yu63fhh2peb7": "2026-11-11",
@@ -2835,15 +2841,15 @@
      "title": "Changes to Cloudflare Workers are not producing Event Subscription events [minor, investigating]",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
     },
-    "sp:Cloudflare:du63c25qjgjs": {
-     "level": "info",
-     "title": "Network performance issues in Los Angeles (LAX) and Frankfurt (FRA) datacenters [minor, identified]",
-     "url": "https://www.cloudflarestatus.com/incidents/du63c25qjgjs"
-    },
     "sp:Cloudflare:sv9tnfpjiojf": {
      "level": "info",
      "title": "Errors and stalled predictions on some models [minor, identified]",
      "url": "https://www.cloudflarestatus.com/incidents/sv9tnfpjiojf"
+    },
+    "sp:Cloudflare:ylj5po752g6h": {
+     "level": "info",
+     "title": "Issues with Durable Objects and Dependent Services [minor, investigating]",
+     "url": "https://www.cloudflarestatus.com/incidents/ylj5po752g6h"
     }
    },
    "seeded": true
