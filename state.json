@@ -1,7 +1,14 @@
 {
- "digest": [],
+ "digest": [
+  "\u2139\ufe0f <b>Cloudflare</b>: Elevated R2 and D1 error rates in EU and Asia Pacific region [minor, investigating]\nRequests to R2 and D1 from the EU and Asia Pacific regions may experience elevated error rates. We are investigating the issue and working to identify the cause. Further updates will be provided as more information becomes available.\n<a href=\"https://www.cloudflarestatus.com/incidents/f33c51cw0ojd\">link</a>",
+  "\u2139\ufe0f <b>Cloudflare</b>: Increased latency on Analytics API (GraphQL) queries [minor, monitoring]\nA fix has been implemented and we are monitoring the results.\n<a href=\"https://www.cloudflarestatus.com/incidents/9zpa7own49hb\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2024-10441 \u2014 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability\nActively exploited. Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2024-10441\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-40217 \u2014 BerriAI LiteLLM Unprotected Alternate Channel Vulnerability\nActively exploited. BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-40217\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-90817 \u2014 Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability\nActively exploited. Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended controller route from a p\u2026\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-90817\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-90436 \u2014 Apache Axis Unsafe Reflection Vulnerability\nActively exploited. Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the application classpath\u2026\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-90436\">link</a>"
+ ],
  "last_digest": "2026-11-18",
- "last_run": "2026-11-18T16:28:46Z",
+ "last_run": "2026-11-18T23:03:38Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-18",
@@ -1288,6 +1295,7 @@
   "kev:CVE-2024-0012": "2026-11-18",
   "kev:CVE-2024-0519": "2026-11-18",
   "kev:CVE-2024-0769": "2026-11-18",
+  "kev:CVE-2024-10441": "2026-11-18",
   "kev:CVE-2024-1086": "2026-11-18",
   "kev:CVE-2024-11120": "2026-11-18",
   "kev:CVE-2024-11182": "2026-11-18",
@@ -1748,6 +1756,7 @@
   "kev:CVE-2026-3910": "2026-11-18",
   "kev:CVE-2026-39808": "2026-11-18",
   "kev:CVE-2026-39987": "2026-11-18",
+  "kev:CVE-2026-40217": "2026-11-18",
   "kev:CVE-2026-41091": "2026-11-18",
   "kev:CVE-2026-41709": "2026-11-18",
   "kev:CVE-2026-41940": "2026-11-18",
@@ -1837,6 +1846,8 @@
   "kev:CVE-2026-88771": "2026-11-18",
   "kev:CVE-2026-88772": "2026-11-18",
   "kev:CVE-2026-88779": "2026-11-18",
+  "kev:CVE-2026-90436": "2026-11-18",
+  "kev:CVE-2026-90817": "2026-11-18",
   "kev:CVE-2026-9082": "2026-11-18",
   "kev:CVE-2026-9198": "2026-11-18",
   "kev:CVE-2026-93616": "2026-11-18",
@@ -2757,6 +2768,7 @@
   "sp:Cloudflare:97y1vy5nsjrn:resolved": "2026-10-27",
   "sp:Cloudflare:9g65dxfbcjln": "2026-10-22",
   "sp:Cloudflare:9g65dxfbcjln:resolved": "2026-10-22",
+  "sp:Cloudflare:9zpa7own49hb": "2026-11-18",
   "sp:Cloudflare:9zxr2bkqoct7": "2026-11-13",
   "sp:Cloudflare:9zxr2bkqoct7:resolved": "2026-11-13",
   "sp:Cloudflare:c60k3g4vsoc1": "2026-11-07",
@@ -2765,6 +2777,7 @@
   "sp:Cloudflare:du63c25qjgjs:resolved": "2026-11-17",
   "sp:Cloudflare:e7ktq32gphhe": "2026-11-13",
   "sp:Cloudflare:e7ktq32gphhe:resolved": "2026-11-14",
+  "sp:Cloudflare:f33c51cw0ojd": "2026-11-18",
   "sp:Cloudflare:klub12zy71b4": "2026-10-28",
   "sp:Cloudflare:klub12zy71b4:resolved": "2026-10-28",
   "sp:Cloudflare:kp28d3kzgft1": "2026-10-29",
@@ -2836,6 +2849,16 @@
      "level": "info",
      "title": "Changes to Cloudflare Workers are not producing Event Subscription events [minor, investigating]",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
+    },
+    "sp:Cloudflare:9zpa7own49hb": {
+     "level": "info",
+     "title": "Increased latency on Analytics API (GraphQL) queries [minor, monitoring]",
+     "url": "https://www.cloudflarestatus.com/incidents/9zpa7own49hb"
+    },
+    "sp:Cloudflare:f33c51cw0ojd": {
+     "level": "info",
+     "title": "Elevated R2 and D1 error rates in EU and Asia Pacific region [minor, investigating]",
+     "url": "https://www.cloudflarestatus.com/incidents/f33c51cw0ojd"
     }
    },
    "seeded": true
