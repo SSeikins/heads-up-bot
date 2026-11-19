@@ -1,7 +1,14 @@
 {
- "digest": [],
+ "digest": [
+  "\u2139\ufe0f <b>Cloudflare</b>: Observability ingestion delay and query failures [minor, monitoring]\nA fix has been implemented and we are monitoring the results.\n<a href=\"https://www.cloudflarestatus.com/incidents/ljrvdciu7syf\">link</a>",
+  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Durable Objects and D1 \u2013 Increased Errors [minor, investigating]\n<a href=\"https://www.cloudflarestatus.com/incidents/5pe5mb9fefi8\">link</a>",
+  "\u2139\ufe0f <b>php.net</b>: PHP 8.5.13 Released!\n<a href=\"https://www.php.net/index.php#2026-11-19-4\">link</a>",
+  "\u2139\ufe0f <b>php.net</b>: PHP 8.4.28 Released!\n<a href=\"https://www.php.net/index.php#2026-11-19-3\">link</a>",
+  "\u2139\ufe0f <b>php.net</b>: PHP 8.3.37 Released!\n<a href=\"https://www.php.net/index.php#2026-11-19-2\">link</a>",
+  "\u2139\ufe0f <b>php.net</b>: PHP 8.2.36 Released!\n<a href=\"https://www.php.net/index.php#2026-11-19-1\">link</a>"
+ ],
  "last_digest": "2026-11-19",
- "last_run": "2026-11-19T13:07:51Z",
+ "last_run": "2026-11-19T21:34:47Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-19",
@@ -2742,6 +2749,11 @@
   "php:https://www.php.net/archive/2026.php#2026-10-26-1": "2026-11-19",
   "php:https://www.php.net/archive/2026.php#2026-11-05-1": "2026-11-19",
   "php:https://www.php.net/archive/2026.php#2026-11-12-1": "2026-11-19",
+  "php:https://www.php.net/archive/2026.php#2026-11-18-1": "2026-11-19",
+  "php:https://www.php.net/archive/2026.php#2026-11-19-1": "2026-11-19",
+  "php:https://www.php.net/archive/2026.php#2026-11-19-2": "2026-11-19",
+  "php:https://www.php.net/archive/2026.php#2026-11-19-3": "2026-11-19",
+  "php:https://www.php.net/archive/2026.php#2026-11-19-4": "2026-11-19",
   "sp:Cloudflare:0ocqieaifg7h": "2026-11-10",
   "sp:Cloudflare:1h9c85fz6bm3": "2026-11-10",
   "sp:Cloudflare:1h9c85fz6bm3:resolved": "2026-11-11",
@@ -2754,6 +2766,7 @@
   "sp:Cloudflare:3ts1mfzs0khz": "2026-10-23",
   "sp:Cloudflare:3ts1mfzs0khz:resolved": "2026-10-23",
   "sp:Cloudflare:5pe5mb9fefi8": "2026-11-19",
+  "sp:Cloudflare:5pe5mb9fefi8:resolved": "2026-11-19",
   "sp:Cloudflare:6yfpsos7ksp3": "2026-10-29",
   "sp:Cloudflare:6yfpsos7ksp3:resolved": "2026-10-29",
   "sp:Cloudflare:8m9a1fjjwxp5": "2026-10-23",
@@ -2782,6 +2795,7 @@
   "sp:Cloudflare:l3d16334tgjp:resolved": "2026-10-22",
   "sp:Cloudflare:lhdg2tq46faq": "2026-10-22",
   "sp:Cloudflare:lhdg2tq46faq:resolved": "2026-10-22",
+  "sp:Cloudflare:ljrvdciu7syf": "2026-11-19",
   "sp:Cloudflare:mc91s22odfvf": "2026-11-13",
   "sp:Cloudflare:mc91s22odfvf:resolved": "2026-11-14",
   "sp:Cloudflare:nbyxn84kvb6o": "2026-11-03",
@@ -2846,10 +2860,10 @@
      "title": "Changes to Cloudflare Workers are not producing Event Subscription events [minor, investigating]",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
     },
-    "sp:Cloudflare:5pe5mb9fefi8": {
+    "sp:Cloudflare:ljrvdciu7syf": {
      "level": "info",
-     "title": "Durable Objects and D1 \u2013 Increased Errors [minor, investigating]",
-     "url": "https://www.cloudflarestatus.com/incidents/5pe5mb9fefi8"
+     "title": "Observability ingestion delay and query failures [minor, monitoring]",
+     "url": "https://www.cloudflarestatus.com/incidents/ljrvdciu7syf"
     }
    },
    "seeded": true
