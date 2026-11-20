@@ -1,7 +1,14 @@
 {
- "digest": [],
+ "digest": [
+  "\u2139\ufe0f <b>Cloudflare</b>: Cache Purging Delays in Amsterdam [minor, investigating]\nCloudflare single-file cache purging (purge by URL) called via the Dashboard/API is delayed in Amsterdam. We are working to resolve this issue as soon as possible. Until then you may use the Purge Everything feature but do be aware it may cause a surge in traffic to your origin server(s). More upda\u2026\n<a href=\"https://www.cloudflarestatus.com/incidents/xsgbfncq7of7\">link</a>",
+  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Network Performance Issues in Miami [minor, identified]\n<a href=\"https://www.cloudflarestatus.com/incidents/4lv21sf5fzhm\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-129448 \u2014 Apache Roller Deserialization of Untrusted Data Vulnerability\nActively exploited. Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability \u2026\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-129448\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-123890 \u2014 VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability\nActively exploited. Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-123890\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2025-42884 \u2014 SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability\nActively exploited. SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2025-42884\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-76466 \u2014 Cisco Expressway Series Use of Hard-coded Credentials Vulnerability\nActively exploited. Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-76466\">link</a>"
+ ],
  "last_digest": "2026-11-20",
- "last_run": "2026-11-20T10:31:47Z",
+ "last_run": "2026-11-20T18:47:25Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-20",
@@ -1561,6 +1568,7 @@
   "kev:CVE-2025-40602": "2026-11-20",
   "kev:CVE-2025-41244": "2026-11-20",
   "kev:CVE-2025-42599": "2026-11-20",
+  "kev:CVE-2025-42884": "2026-11-20",
   "kev:CVE-2025-42999": "2026-11-20",
   "kev:CVE-2025-43200": "2026-11-20",
   "kev:CVE-2025-43300": "2026-11-20",
@@ -1673,10 +1681,12 @@
   "kev:CVE-2026-123039": "2026-11-20",
   "kev:CVE-2026-123158": "2026-11-20",
   "kev:CVE-2026-123218": "2026-11-20",
+  "kev:CVE-2026-123890": "2026-11-20",
   "kev:CVE-2026-124194": "2026-11-20",
   "kev:CVE-2026-125350": "2026-11-20",
   "kev:CVE-2026-12569": "2026-11-20",
   "kev:CVE-2026-1281": "2026-11-20",
+  "kev:CVE-2026-129448": "2026-11-20",
   "kev:CVE-2026-1340": "2026-11-20",
   "kev:CVE-2026-15409": "2026-11-20",
   "kev:CVE-2026-15410": "2026-11-20",
@@ -1814,6 +1824,7 @@
   "kev:CVE-2026-76418": "2026-11-20",
   "kev:CVE-2026-76460": "2026-11-20",
   "kev:CVE-2026-76461": "2026-11-20",
+  "kev:CVE-2026-76466": "2026-11-20",
   "kev:CVE-2026-76504": "2026-11-20",
   "kev:CVE-2026-76519": "2026-11-20",
   "kev:CVE-2026-8037": "2026-11-20",
@@ -2759,6 +2770,7 @@
   "sp:Cloudflare:3ts1mfzs0khz": "2026-10-23",
   "sp:Cloudflare:3ts1mfzs0khz:resolved": "2026-10-23",
   "sp:Cloudflare:4lv21sf5fzhm": "2026-11-20",
+  "sp:Cloudflare:4lv21sf5fzhm:resolved": "2026-11-20",
   "sp:Cloudflare:5pe5mb9fefi8": "2026-11-19",
   "sp:Cloudflare:5pe5mb9fefi8:resolved": "2026-11-19",
   "sp:Cloudflare:6yfpsos7ksp3": "2026-10-29",
@@ -2781,6 +2793,7 @@
   "sp:Cloudflare:e7ktq32gphhe:resolved": "2026-11-14",
   "sp:Cloudflare:f33c51cw0ojd": "2026-11-18",
   "sp:Cloudflare:f33c51cw0ojd:resolved": "2026-11-19",
+  "sp:Cloudflare:iysf3fasf7wn": "2026-11-20",
   "sp:Cloudflare:klub12zy71b4": "2026-10-28",
   "sp:Cloudflare:klub12zy71b4:resolved": "2026-10-28",
   "sp:Cloudflare:kp28d3kzgft1": "2026-10-29",
@@ -2811,6 +2824,7 @@
   "sp:Cloudflare:v967mz6rrcxw:resolved": "2026-10-23",
   "sp:Cloudflare:wp49bp8bqo6c": "2026-11-06",
   "sp:Cloudflare:wp49bp8bqo6c:resolved": "2026-11-12",
+  "sp:Cloudflare:xsgbfncq7of7": "2026-11-20",
   "sp:Cloudflare:ylj5po752g6h": "2026-11-17",
   "sp:Cloudflare:ylj5po752g6h:resolved": "2026-11-18",
   "sp:Cloudflare:yt1i5fd4cis2": "2026-10-29",
@@ -2855,10 +2869,15 @@
      "title": "Changes to Cloudflare Workers are not producing Event Subscription events [minor, investigating]",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
     },
-    "sp:Cloudflare:4lv21sf5fzhm": {
+    "sp:Cloudflare:iysf3fasf7wn": {
+     "level": "crit",
+     "title": "Cloudflare Dashboard and Cloudflare API service issues in EU region [major, monitoring]",
+     "url": "https://www.cloudflarestatus.com/incidents/iysf3fasf7wn"
+    },
+    "sp:Cloudflare:xsgbfncq7of7": {
      "level": "info",
-     "title": "Network Performance Issues in Miami [minor, identified]",
-     "url": "https://www.cloudflarestatus.com/incidents/4lv21sf5fzhm"
+     "title": "Cache Purging Delays in Amsterdam [minor, investigating]",
+     "url": "https://www.cloudflarestatus.com/incidents/xsgbfncq7of7"
     }
    },
    "seeded": true
