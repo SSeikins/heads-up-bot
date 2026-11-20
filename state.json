@@ -1,15 +1,7 @@
 {
- "digest": [
-  "\u2139\ufe0f <b>Cloudflare</b>: Observability ingestion delay and query failures [minor, monitoring]\nA fix has been implemented and we are monitoring the results.\n<a href=\"https://www.cloudflarestatus.com/incidents/ljrvdciu7syf\">link</a>",
-  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Durable Objects and D1 \u2013 Increased Errors [minor, investigating]\n<a href=\"https://www.cloudflarestatus.com/incidents/5pe5mb9fefi8\">link</a>",
-  "\u2139\ufe0f <b>php.net</b>: PHP 8.5.13 Released!\n<a href=\"https://www.php.net/index.php#2026-11-19-4\">link</a>",
-  "\u2139\ufe0f <b>php.net</b>: PHP 8.4.28 Released!\n<a href=\"https://www.php.net/index.php#2026-11-19-3\">link</a>",
-  "\u2139\ufe0f <b>php.net</b>: PHP 8.3.37 Released!\n<a href=\"https://www.php.net/index.php#2026-11-19-2\">link</a>",
-  "\u2139\ufe0f <b>php.net</b>: PHP 8.2.36 Released!\n<a href=\"https://www.php.net/index.php#2026-11-19-1\">link</a>",
-  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Observability ingestion delay and query failures [minor, monitoring]\n<a href=\"https://www.cloudflarestatus.com/incidents/ljrvdciu7syf\">link</a>"
- ],
- "last_digest": "2026-11-19",
- "last_run": "2026-11-20T02:38:12Z",
+ "digest": [],
+ "last_digest": "2026-11-20",
+ "last_run": "2026-11-20T10:31:47Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-20",
@@ -2766,6 +2758,7 @@
   "sp:Cloudflare:39fz3wkl42tr:resolved": "2026-10-24",
   "sp:Cloudflare:3ts1mfzs0khz": "2026-10-23",
   "sp:Cloudflare:3ts1mfzs0khz:resolved": "2026-10-23",
+  "sp:Cloudflare:4lv21sf5fzhm": "2026-11-20",
   "sp:Cloudflare:5pe5mb9fefi8": "2026-11-19",
   "sp:Cloudflare:5pe5mb9fefi8:resolved": "2026-11-19",
   "sp:Cloudflare:6yfpsos7ksp3": "2026-10-29",
@@ -2861,6 +2854,11 @@
      "level": "info",
      "title": "Changes to Cloudflare Workers are not producing Event Subscription events [minor, investigating]",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
+    },
+    "sp:Cloudflare:4lv21sf5fzhm": {
+     "level": "info",
+     "title": "Network Performance Issues in Miami [minor, identified]",
+     "url": "https://www.cloudflarestatus.com/incidents/4lv21sf5fzhm"
     }
    },
    "seeded": true
