@@ -1,7 +1,9 @@
 {
- "digest": [],
+ "digest": [
+  "\u2139\ufe0f <b>Cloudflare</b>: Resolved: Network Performance Issues in Washington, DC datacenter (IAD) [minor, monitoring]\n<a href=\"https://www.cloudflarestatus.com/incidents/oz6to8yacrxe\">link</a>"
+ ],
  "last_digest": "2026-11-21",
- "last_run": "2026-11-21T07:34:32Z",
+ "last_run": "2026-11-21T15:37:55Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-21",
@@ -2805,6 +2807,7 @@
   "sp:Cloudflare:oy8gxjb38yse": "2026-11-05",
   "sp:Cloudflare:oy8gxjb38yse:resolved": "2026-11-06",
   "sp:Cloudflare:oz6to8yacrxe": "2026-11-21",
+  "sp:Cloudflare:oz6to8yacrxe:resolved": "2026-11-21",
   "sp:Cloudflare:qwrtvb4jfvk7": "2026-10-22",
   "sp:Cloudflare:qwrtvb4jfvk7:resolved": "2026-10-23",
   "sp:Cloudflare:r4mz367vddi7": "2026-10-29",
@@ -2864,11 +2867,6 @@
      "level": "info",
      "title": "Changes to Cloudflare Workers are not producing Event Subscription events [minor, investigating]",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
-    },
-    "sp:Cloudflare:oz6to8yacrxe": {
-     "level": "info",
-     "title": "Network Performance Issues in Washington, DC datacenter (IAD) [minor, monitoring]",
-     "url": "https://www.cloudflarestatus.com/incidents/oz6to8yacrxe"
     }
    },
    "seeded": true
