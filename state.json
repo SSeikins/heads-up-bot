@@ -1,7 +1,19 @@
 {
- "digest": [],
+ "digest": [
+  "\u2139\ufe0f <b>Cloudflare</b>: Elevated R2 Latency [minor, investigating]\nWe are currently investigating reports of high latency for R2, Stream, and Pipelines. Users may experience elevated latency while using these services.\n<a href=\"https://www.cloudflarestatus.com/incidents/ef6928vi0mic\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-103406 \u2014 Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability\nActively exploited. Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-103406\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-133469 \u2014 Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability\nActively exploited. Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted authentication token containing an empty JSON object.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-133469\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2025-41450 \u2014 Danfoss AK-SM 800A Series Improper Authentication Vulnerability\nActively exploited. Danfoss AK-SM 800A Series contains an improper authentication vulnerability that could allow an attacker to generate a web report exposing sensitive information, including internal IP addresses, usernames, and store names.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2025-41450\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2023-25914 \u2014 Danfoss AK-SM 800A Series Path Traversal Vulnerability\nActively exploited. Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2023-25914\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2023-25915 \u2014 Danfoss AK-SM 800A Series Improper Input Validation Vulnerability\nActively exploited. Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2023-25915\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-133324 \u2014 Mitel MiCollab Not Failing Securely Vulnerability\nActively exploited. Mitel MiCollab contains a not failing securely vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to bypass authentication controls and perform unauthorized actions.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-133324\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-133275 \u2014 Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability\nActively exploited. Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audio, Web and Video Conferencing (AWV) component due to insufficient file type validation that could allow an unauthenticated attacker to upload arbitrary files.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-133275\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-133311 \u2014 Mitel MiCollab Weak Authentication Vulnerability\nActively exploited. Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using a specific system-generated random identifier or pre-staged content.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-133311\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-133303 \u2014 Mitel MiCollab XML Injection Vulnerability\nActively exploited. Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious content.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-133303\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-133323 \u2014 Mitel MiCollab OS Command Injection Vulnerability\nActively exploited. Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary system commands.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-133323\">link</a>"
+ ],
  "last_digest": "2026-11-25",
- "last_run": "2026-11-25T11:46:40Z",
+ "last_run": "2026-11-25T20:44:37Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-25",
@@ -1157,6 +1169,8 @@
   "kev:CVE-2023-25280": "2026-11-25",
   "kev:CVE-2023-2533": "2026-11-25",
   "kev:CVE-2023-25717": "2026-11-25",
+  "kev:CVE-2023-25914": "2026-11-25",
+  "kev:CVE-2023-25915": "2026-11-25",
   "kev:CVE-2023-26083": "2026-11-25",
   "kev:CVE-2023-26359": "2026-11-25",
   "kev:CVE-2023-26360": "2026-11-25",
@@ -1560,6 +1574,7 @@
   "kev:CVE-2025-40551": "2026-11-25",
   "kev:CVE-2025-40602": "2026-11-25",
   "kev:CVE-2025-41244": "2026-11-25",
+  "kev:CVE-2025-41450": "2026-11-25",
   "kev:CVE-2025-42599": "2026-11-25",
   "kev:CVE-2025-42884": "2026-11-25",
   "kev:CVE-2025-42999": "2026-11-25",
@@ -1649,6 +1664,7 @@
   "kev:CVE-2026-102490": "2026-11-25",
   "kev:CVE-2026-102764": "2026-11-25",
   "kev:CVE-2026-102895": "2026-11-25",
+  "kev:CVE-2026-103406": "2026-11-25",
   "kev:CVE-2026-104286": "2026-11-25",
   "kev:CVE-2026-104935": "2026-11-25",
   "kev:CVE-2026-105133": "2026-11-25",
@@ -1683,6 +1699,12 @@
   "kev:CVE-2026-131914": "2026-11-25",
   "kev:CVE-2026-132165": "2026-11-25",
   "kev:CVE-2026-132224": "2026-11-25",
+  "kev:CVE-2026-133275": "2026-11-25",
+  "kev:CVE-2026-133303": "2026-11-25",
+  "kev:CVE-2026-133311": "2026-11-25",
+  "kev:CVE-2026-133323": "2026-11-25",
+  "kev:CVE-2026-133324": "2026-11-25",
+  "kev:CVE-2026-133469": "2026-11-25",
   "kev:CVE-2026-133968": "2026-11-25",
   "kev:CVE-2026-1340": "2026-11-25",
   "kev:CVE-2026-134624": "2026-11-25",
@@ -2800,6 +2822,7 @@
   "sp:Cloudflare:du63c25qjgjs:resolved": "2026-11-17",
   "sp:Cloudflare:e7ktq32gphhe": "2026-11-13",
   "sp:Cloudflare:e7ktq32gphhe:resolved": "2026-11-14",
+  "sp:Cloudflare:ef6928vi0mic": "2026-11-25",
   "sp:Cloudflare:f33c51cw0ojd": "2026-11-18",
   "sp:Cloudflare:f33c51cw0ojd:resolved": "2026-11-19",
   "sp:Cloudflare:iysf3fasf7wn": "2026-11-20",
@@ -2887,6 +2910,11 @@
      "level": "info",
      "title": "Changes to Cloudflare Workers are not producing Event Subscription events [minor, investigating]",
      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
+    },
+    "sp:Cloudflare:ef6928vi0mic": {
+     "level": "info",
+     "title": "Elevated R2 Latency [minor, investigating]",
+     "url": "https://www.cloudflarestatus.com/incidents/ef6928vi0mic"
     }
    },
    "seeded": true
