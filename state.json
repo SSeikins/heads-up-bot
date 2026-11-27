@@ -1,7 +1,12 @@
 {
- "digest": [],
+ "digest": [
+  "\u2139\ufe0f <b>php.net</b>: phpday 2027 - Call for Papers\n<a href=\"https://www.php.net/conferences/index.php?view=cfps#2026-11-26-1\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-120705 \u2014 OSGeo GeoServer XML Injection Vulnerability\nActively exploited. OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a crafted ID parameter in the WFS 2.0 GetFeatureById stored quer\u2026\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-120705\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-129243 \u2014 OSGeo GeoServer Incorrect Authorization Vulnerability\nActively exploited. GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks via a request with a prefixed service parameter. This vulnerability can be chained with CVE-2026-1292\u2026\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-129243\">link</a>",
+  "\u2139\ufe0f <b>CISA KEV</b>: CVE-2026-136716 \u2014 Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability\nActively exploited. Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states.\n<a href=\"https://nvd.nist.gov/vuln/detail/CVE-2026-136716\">link</a>"
+ ],
  "last_digest": "2026-11-27",
- "last_run": "2026-11-27T14:06:28Z",
+ "last_run": "2026-11-27T22:42:44Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-27",
@@ -1676,6 +1681,7 @@
   "kev:CVE-2026-116779": "2026-11-27",
   "kev:CVE-2026-118527": "2026-11-27",
   "kev:CVE-2026-119977": "2026-11-27",
+  "kev:CVE-2026-120705": "2026-11-27",
   "kev:CVE-2026-123039": "2026-11-27",
   "kev:CVE-2026-123158": "2026-11-27",
   "kev:CVE-2026-123218": "2026-11-27",
@@ -1684,6 +1690,7 @@
   "kev:CVE-2026-125350": "2026-11-27",
   "kev:CVE-2026-12569": "2026-11-27",
   "kev:CVE-2026-1281": "2026-11-27",
+  "kev:CVE-2026-129243": "2026-11-27",
   "kev:CVE-2026-129448": "2026-11-27",
   "kev:CVE-2026-131914": "2026-11-27",
   "kev:CVE-2026-132165": "2026-11-27",
@@ -1697,6 +1704,7 @@
   "kev:CVE-2026-133968": "2026-11-27",
   "kev:CVE-2026-1340": "2026-11-27",
   "kev:CVE-2026-134624": "2026-11-27",
+  "kev:CVE-2026-136716": "2026-11-27",
   "kev:CVE-2026-15409": "2026-11-27",
   "kev:CVE-2026-15410": "2026-11-27",
   "kev:CVE-2026-1603": "2026-11-27",
@@ -2777,6 +2785,7 @@
   "php:https://www.php.net/archive/2026.php#2026-11-19-5": "2026-11-27",
   "php:https://www.php.net/archive/2026.php#2026-11-20-1": "2026-11-27",
   "php:https://www.php.net/archive/2026.php#2026-11-25-1": "2026-11-27",
+  "php:https://www.php.net/archive/2026.php#2026-11-26-1": "2026-11-27",
   "sp:Cloudflare:00dp7cliyqqt": "2026-11-23",
   "sp:Cloudflare:00dp7cliyqqt:resolved": "2026-11-25",
   "sp:Cloudflare:0ocqieaifg7h": "2026-11-10",
