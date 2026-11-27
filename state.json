@@ -1,9 +1,7 @@
 {
- "digest": [
-  "\u2139\ufe0f <b>CERT.LV</b>: CERT.LV activity review Q3 2026\nIn Q3 2026, the intensity of cyber threats and the impact of incidents in Latvian cyberspace increased. Attackers increasingly exploited system vulnerabilities, compromised digital identities, and caused data leaks.\n<a href=\"https://cert.lv/en/2026/11/cert-lv-activity-review-q3-2026\">link</a>"
- ],
- "last_digest": "2026-11-26",
- "last_run": "2026-11-27T04:21:16Z",
+ "digest": [],
+ "last_digest": "2026-11-27",
+ "last_run": "2026-11-27T14:06:28Z",
  "seen": {
   "certlv:https://cert.lv/en/2025/05/cert-lv-activity-review-q1-2025": "2026-11-01",
   "certlv:https://cert.lv/en/2025/07/seventh-threat-hunting-surge-is-concluded": "2026-11-27",
@@ -2778,6 +2776,7 @@
   "php:https://www.php.net/archive/2026.php#2026-11-19-4": "2026-11-27",
   "php:https://www.php.net/archive/2026.php#2026-11-19-5": "2026-11-27",
   "php:https://www.php.net/archive/2026.php#2026-11-20-1": "2026-11-27",
+  "php:https://www.php.net/archive/2026.php#2026-11-25-1": "2026-11-27",
   "sp:Cloudflare:00dp7cliyqqt": "2026-11-23",
   "sp:Cloudflare:00dp7cliyqqt:resolved": "2026-11-25",
   "sp:Cloudflare:0ocqieaifg7h": "2026-11-10",
